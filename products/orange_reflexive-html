@@ -24,9 +24,9 @@
     <header>
       <nav>
         <ul>
-          <li><a href="./jackets.html">jackets</a></li>
-          <li><a href="./about.html">about</a></li>
-          <li><a href="./contact.html">contact us</a></li>
+          <li><a href="/jackets.html">jackets</a></li>
+          <li><a href="/about.html">about</a></li>
+          <li><a href="/contact.html">contact us</a></li>
         </ul>
       </nav>
       <nav>
@@ -35,7 +35,7 @@
     </header>
     <main>
       <nav>
-        <a href="../index.html">
+        <a href="/index.html">
           <img
             src="/images/RainyDays_Logo.png"
             alt="RainyDays Logo and link to homepage"
@@ -45,24 +45,20 @@
       </nav>
       <section>
         <div>
-          <img src="/images/RainyDays_Jacket7.jpg" width="400" />
+          <img src="/images/RainyDays_Jacket1.jpg" width="400" />
         </div>
         <div>
-          <h1>Heritage Brown Adventure Jacket</h1>
+          <h1>Orange Reflexive Delight</h1>
         </div>
         <div>
           <h2>description</h2>
           <p>
-            Introducing the Heritage Brown Adventure Jacket, the ultimate
-            outdoor essential for active individuals aged 30 to 50 who value
-            warmth and comfort. Designed to stand up to brisk winds and chilly
-            temperatures, this jacket features a cozy, insulated lining that
-            traps heat without adding bulk, making it perfect for hikes, outdoor
-            gatherings, or everyday wear in cooler weather.
+            This item is the placeholder for none sale items. Clicking “ADD TO
+            CART” will continue with the item on sale.
           </p>
         </div>
         <div>
-          <p>60$</p>
+          <p>200$</p>
         </div>
         <div>
           <h3>Size</h3>

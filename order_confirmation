@@ -42,25 +42,12 @@
         />
       </a>
       <div>
-        <h1>About Us</h1>
-        <p>
-          At RainyDays, we believe that weather should never stand in the way of
-          your passion for the outdoors. Whether you're hiking, running,
-          cycling, or simply on the move, our jackets are designed to keep you
-          dry, comfortable, and ready for any adventure. Built for performance
-          and durability, our outerwear blends cutting-edge materials with
-          sleek, functional design—so you can stay active no matter what the
-          forecast says.
-        </p>
-        <p>
-          We know how important this is because we live it ourselves. Our team
-          is made up of outdoor enthusiasts who value freedom of movement and
-          gear that doesn’t slow us down. Every product we create reflects our
-          personal commitment to making sure you can enjoy the outdoors without
-          feeling encumbered by your equipment. For us, rainy days aren’t
-          obstacles—they’re opportunities to keep going. And we’re here to make
-          sure you can do the same.
-        </p>
+        <h1>Thank you for your order</h1>
+        <p>You will receive an email with order details shortly</p>
+        <p>Any issues?</p>
+      </div>
+      <div>
+        <a href="contact.html">Contact Us</a>
       </div>
     </main>
     <footer>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="./css/styles.css" rel="Stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RainyDays | Homepage</title>
@@ -8,42 +9,77 @@
       name="description"
       content="The homepage for the webstore Rainydays"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="jackets.html">jackets</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact us</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <a href="cart.html">Cart</a>
-      </nav>
+      <div class="header-nav">
+        <div>
+          <input type="checkbox" id="menu-checkbox" />
+          <label for="menu-checkbox"
+            ><i class="hamburger"
+              ><img
+                src="./images/Hamburger.png"
+                width="64px"
+                class="hamburger" /></i
+          ></label>
+          <nav class="navigation">
+            <div class="container">
+              <div class="btn-wrapper">
+                <div class="dropdown">
+                  <ul id="menu-nav">
+                    <a href="./jackets.html">jackets</a>
+                    <a href="./about.html">about</a>
+                    <a href="./contact.html">contact us</a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div id="cart">
+          <a href="cart.html"><img src="./images/cart.png" width="64px" /></a>
+        </div>
+      </div>
     </header>
     <main>
-      <a href="index.html">
+      <a href="index.html" class="rainydayslogo">
         <img
           src="images/RainyDays_Logo.png"
           alt="RainyDays Logo and link to homepage"
-          width="750"
         />
       </a>
-      <nav>
-        <a href="jackets.html">explore comfort</a>
-      </nav>
-      <nav>
-        <a href="about.html">about us</a>
-        <img src="images/man.jpg" width="700" />
-      </nav>
-      <section>
-        <a href="products/heritage_brown.html">fall sale!</a>
-        <p>-40%</p>
-        <img src="images/RainyDays_Jacket7.jpg" width="500" />
-        <p>60$</p>
-        <p>New</p>
-      </section>
+      <div>
+        <nav class="explorecomfort">
+          <a href="./jackets.html" class="cta-button">explore comfort</a>
+        </nav>
+      </div>
+      <div class="homepage-content">
+        <div class="aboutus-cta">
+          <img src="./images/man.jpg" class="aboutus-img" />
+          <div class="button-container">
+            <a href="./about.html" class="cta-button">about us</a>
+          </div>
+        </div>
+        <div>
+          <a href="./products/heritage_brown.html" class="cta-sale"
+            >fall sale!</a
+          >
+          <p>-40%</p>
+          <img src="./images/RainyDays_Jacket7.jpg" width="500" />
+          <p>60$</p>
+          <p>New</p>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy;rainydays2024</p>
