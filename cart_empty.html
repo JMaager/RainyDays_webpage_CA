@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="css/styles.css" rel="Stylesheet" />
+    <link href="./css/styles.css" rel="Stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RainyDays | Homepage</title>
     <meta
       name="description"
-      content="The cart page for the website Rainydays, the cart here is empty"
+      content="The homepage for the webstore Rainydays"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,31 +22,53 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="jackets.html">jackets</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact us</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <a href="cart.html">Cart</a>
-      </nav>
+      <div class="header-nav">
+        <div>
+          <input type="checkbox" id="menu-checkbox" />
+          <label for="menu-checkbox"
+            ><img
+              src="./images/Hamburger.png"
+              width="64px"
+              class="hamburger"
+              alt="picture of hamburger menu"
+          /></label>
+          <nav class="navigation">
+            <div class="container">
+              <ul class="menu-nav">
+                <li><a href="./jackets.html">jackets</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./contact.html">contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div id="cart">
+          <a href="../cart_empty.html"
+            ><img
+              src="./images/cart.png"
+              width="64px"
+              alt="picture of a shopping cart"
+          /></a>
+        </div>
+      </div>
     </header>
     <main>
-      <a href="index.html">
+      <a href="index.html" class="rainydayslogo">
         <img
-          src="images/RainyDays_Logo.png"
+          src="../images/RainyDays_Logo.png"
           alt="RainyDays Logo and link to homepage"
-          width="750"
         />
       </a>
-      <div>
-        <h1>The cart is empty</h1>
+      <div class="cart-empty-container">
+        <div class="cart-empty-heading">
+          <h1>The cart is empty</h1>
+        </div>
+        <div class="cart-empty-button">
+          <a href="./jackets.html"
+            ><button class="cta-button">Click here to browse</button></a
+          >
+        </div>
       </div>
-      <nav>
-        <a href="jackets.html">Click here to browse</a>
-      </nav>
     </main>
     <footer>
       <p>&copy;rainydays2024</p>
