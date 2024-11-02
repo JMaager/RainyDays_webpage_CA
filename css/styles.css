@@ -280,21 +280,6 @@ main {
   height: 35px;
   border-radius: 10px;
 }
-.add-to-cart-small {
-  position: absolute;
-  background-color: rgba(255, 203, 59, 1);
-  border: 2px solid black;
-  border-radius: 25%;
-  padding: 8px 10px;
-  right: 10%;
-  top: 75%;
-  &:hover {
-    background-color: rgb(255, 208, 79);
-  }
-}
-.add-to-cart-small img {
-  width: 64px;
-}
 
 @media (max-width: 1200px) {
   .homepage-content {
@@ -330,6 +315,9 @@ main {
   }
   .sale-picture img {
     width: 200px;
+  }
+  .cta-40 {
+    font-size: 30px;
   }
 }
 /************************************************************************************************************************************/
