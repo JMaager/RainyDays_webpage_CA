@@ -39,14 +39,6 @@ header {
     max-width: 400px;
   }
 }
-@media (max-width: 800px) {
-  .rainydayslogo img {
-    width: 200px;
-  }
-  .rainydayslogo {
-    max-width: 200px;
-  }
-}
 
 body {
   border-style: solid;
@@ -238,7 +230,7 @@ main {
 }
 @media (max-width: 1200px) {
   .aboutus-cta img {
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -316,6 +308,20 @@ main {
   .aboutus-cta:last-child,
   .homepage-sale:last-child {
     margin-bottom: 0;
+  }
+}
+@media (max-width: 800px) {
+  .homepage-content {
+    max-width: 600px;
+  }
+  .rainydayslogo img {
+    width: 200px;
+  }
+  .rainydayslogo {
+    max-width: 200px;
+  }
+  .homepage-sale {
+    max-width: 300px;
   }
 }
 
