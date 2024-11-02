@@ -314,8 +314,10 @@ main {
     font-size: 34px;
   }
   .sale-picture {
-    width: 200px;
     top: 6em;
+  }
+  .sale-picture img {
+    width: 200px;
   }
   .cta-40 {
     font-size: 30px;
