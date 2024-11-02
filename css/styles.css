@@ -313,7 +313,7 @@ main {
   .cta-sale {
     font-size: 34px;
   }
-  .sale-picture img {
+  .sale-picture {
     width: 200px;
     top: 6em;
   }
